@@ -1,41 +1,39 @@
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;UTF-8&quot;&gt;
-&lt;title&gt;DIV and SPAN Example&lt;/title&gt;
-&lt;style&gt;
-.container {
-border: 2px solid blue;
-background-color: #f0f8ff;
-padding: 15px;
-margin: 20px;
-}
-.highlight {
-color: red;
-font-weight: bold;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>DIV and SPAN Example 2</title>
+    <style>
+        .card {
+            border: 2px solid rgb(255, 235, 17);
+            background-color: #c6fffd;
+            padding: 20px;
+              margin: 20px;
+            border-radius: 8px;
+        }
 
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;h2&gt;DIV Element Example&lt;/h2&gt;
-&lt;p&gt;
-The &lt;strong&gt;DIV&lt;/strong&gt; element is a block-level container used to group HTML elements.
-&lt;/p&gt;
+        .important {
+            color: rgb(217, 25, 0);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
 
-&lt;p&gt;
-This sentence contains a
-&lt;span class=&quot;highlight&quot;&gt;SPAN element&lt;/span&gt;
-that highlights only a part of the text.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;container&quot;&gt;
-&lt;h2&gt;Another DIV Section&lt;/h2&gt;
-&lt;p&gt;
-The &lt;span class=&quot;highlight&quot;&gt;SPAN&lt;/span&gt; element is an inline container used to style specific
-words or phrases.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+    <div class="card">
+        <h2>Student Information</h2>
+        <p>Name: <span class="important">Sabari Varshan N S</span></p>
+        <p>Department: BCA</p>
+        <p>Status: <span class="important">Active</span></p>
+    </div>
+
+    <div class="card">
+        <h2>Course Details</h2>
+        <p>Course: Web Development</p>
+        <p>Duration: <span class="important">6 Months</span></p>
+        <p>Mode: Online</p>
+    </div>
+
+</body>
+</html>
